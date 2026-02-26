@@ -1,4 +1,4 @@
-import { Requirement } from '../types/compliance';
+import type { Requirement } from '../types/compliance';
 
 export const craRequirements: Requirement[] = [
   // ════════════════════════════════════════════════════════════════════

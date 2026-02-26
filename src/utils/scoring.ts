@@ -1,4 +1,4 @@
-import { Requirement, RequirementAssessment, ComplianceStatus } from '../types/compliance';
+import type { Requirement, RequirementAssessment, ComplianceStatus } from '../types/compliance';
 
 export interface CategoryScore {
   category: string;

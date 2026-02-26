@@ -1,9 +1,11 @@
 import { useMemo } from 'react';
-import { Requirement, RequirementAssessment, STATUS_COLORS } from '../types/compliance';
+import type { Requirement, RequirementAssessment } from '../types/compliance';
+import { STATUS_COLORS } from '../types/compliance';
 import { frameworks } from '../data/frameworks';
 import { craRequirements } from '../data/cra-requirements';
 import { iec62443Requirements } from '../data/iec62443-requirements';
-import { calculateFrameworkScore, FrameworkScore } from '../utils/scoring';
+import { calculateFrameworkScore } from '../utils/scoring';
+import type { FrameworkScore } from '../utils/scoring';
 import { Shield, AlertTriangle, CheckCircle2, Clock, BarChart3 } from 'lucide-react';
 
 interface DashboardProps {

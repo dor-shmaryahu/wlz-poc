@@ -1,5 +1,6 @@
 import { useMemo, useState } from 'react';
-import { Requirement, RequirementAssessment, ComplianceStatus, STATUS_LABELS } from '../types/compliance';
+import type { Requirement, RequirementAssessment, ComplianceStatus } from '../types/compliance';
+import { STATUS_LABELS } from '../types/compliance';
 import { frameworks } from '../data/frameworks';
 import { craRequirements } from '../data/cra-requirements';
 import { iec62443Requirements } from '../data/iec62443-requirements';

@@ -1,4 +1,4 @@
-import { Framework } from '../types/compliance';
+import type { Framework } from '../types/compliance';
 
 export const frameworks: Framework[] = [
   {

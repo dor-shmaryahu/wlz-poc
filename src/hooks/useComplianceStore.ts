@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback } from 'react';
-import { ComplianceState, RequirementAssessment, ComplianceStatus } from '../types/compliance';
+import type { ComplianceState, RequirementAssessment, ComplianceStatus } from '../types/compliance';
 
 const STORAGE_KEY = 'compliance-readiness-tracker';
 

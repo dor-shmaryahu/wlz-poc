@@ -1,4 +1,4 @@
-import { Requirement } from '../types/compliance';
+import type { Requirement } from '../types/compliance';
 
 export const iec62443Requirements: Requirement[] = [
   // ── IEC 62443-2-1: Security Management System ──

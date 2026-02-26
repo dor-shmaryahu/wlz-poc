@@ -1,5 +1,6 @@
 import { useState } from 'react';
-import { Requirement, RequirementAssessment, ComplianceStatus, STATUS_LABELS, STATUS_COLORS } from '../types/compliance';
+import type { Requirement, RequirementAssessment, ComplianceStatus } from '../types/compliance';
+import { STATUS_LABELS, STATUS_COLORS } from '../types/compliance';
 import { ArrowLeft, FileText, Link, MessageSquare, Calendar, User } from 'lucide-react';
 
 interface RequirementDetailProps {
